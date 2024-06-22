@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20;
+    background-image: url('mosue pics/Designer.png');
+    background-size: cover;
+    
+    background-repeat: no-repeat; 
+    
+    z-index: -1;
+    
+}
+
+header {
+    
+    background-image: url('mosue pics/OIP.jpeg');
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 4rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgb(205, 229, 236);
+    border-radius: 10px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+    width: 300px;
+    padding: 1rem;
+    position: relative;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0 0.5rem;
+}
+
+.card .price {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0.5rem 0 1rem;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.card:hover .price {
+    transform: scale(1.4);
+    opacity: 0.9;
+}
+
+.card .btn {
+    background-color: #af81d7;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 1rem 0;
+    transition: background-color 0.3s;
+}
+
+.card .btn:hover {
+    background-color: #a861e6;
+}
